@@ -1,0 +1,23 @@
+----------- FIND A PAIR GAME ------------------
+
+My first attempt at a game in js
+
+SCENARIO: Game of find a pair  - 20 cards that are open when clicked and closed when double clicked - when a pair is found the two cards will disappear 
+
+GIVEN: Twenty cards are displayed on screen
+WHEN:  user starts the game
+WHAT: Each card displayed has another card attached underneath that is shown when clicked and hidden when double clicked
+HOW: container element for displayed card & child element for hidden element
+AND: Pairs will be numbers 
+AND: child element = visibility: hidden; 
+AND: use JS onclick to change visibility to inherit - doubleclick to change visibility back to hidden 
+
+GIVEN: Two matching cards disappear 
+WHEN: both cards are displayed because user has clicked on them
+WHAT: pair have the same CSS class & both have css property(display:none)
+HOW:
+
+GIVEN: game ends when all cards are gone
+WHEN: user has found all pairs
+WHAT: A 'congratulations' message is displayed onscreen
+HOW:

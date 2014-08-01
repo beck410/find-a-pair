@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="Find a pair game">
+  <meta name="author" content="EBD">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<section id="container">
+<h1 id="name">Find-A-Pair</h1>
+<!-- START SCREEN -->
+    <div id="start">
+        <h2>Rules</h2>
+        <ul>
+            <li>Click an orange bar to open a card</li>
+            <li>You can only have 2 cards open at once</li>
+            <li>click on the number to close a card</li>
+            <li>Find all pairs to finish the game</li>
+        </ul>
+        
+        <p>Please choose your level to start playing</p>
+        <button id="easy" class="button">Easy</button>
+        <button id="medium" class="button">Medium</button>
+        <button id="hard" class="button">Hard</button>
+    </div>
+    
+<!-- MESSAGES -->
+    <div class="messages" id="tooManyCards">
+        <p>You have too many cards open</p>
+    </div>
+    <div class="messages" id="pair">
+        <p>You Found A Pair!</p>
+    </div>
+     <div class="messages" id="win">
+        <p>Congratulations! You have won</p>
+    </div>
+    <div class="messages" id="thankyou">
+        <p>Thanks for playing!</p>
+    </div>
+
+<!-- RESTART GAME --> 
+    <div id="reset">
+        <p>Would You like to play again?</p>
+        <button id="playAgain" class="button">Let's play again</button>
+        <button id="finish" class="button">I'm done</button>
+    </div>
+
+<!-- Cards -->
+<div id="cardContainer">
+    
+</div>
+
+
+</section>
+
+  <script src="function.js"></script>
+</body>
+</html>
