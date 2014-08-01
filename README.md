@@ -1,25 +1,16 @@
-<<<<<<< HEAD
-
-    ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
 
 
-Hi there! Welcome to Cloud9 IDE!
+A matching game - first vanilla JS project 
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+Match all cards to finish the game 
 
-Happy coding!
-The Cloud9 IDE team
-=======
-find-a-pair
-===========
+3 levels
+-easy: 10 cards
+- medium: 20 cards
+- hard: 50 cards
+- 
+If more than 3 cards are open at a time all cards are closed.
 
-A matching game - first JS project 
->>>>>>> ed7831506b40d33a88d6e4623db76cdf3049c14f
+Option at end of game to restart.
+
+Focusing more on JS functionality than design. 
