@@ -1,7 +1,9 @@
+#Find A Pair Gamw
 
+##Synopsis
+Vanilla JavaScript Matching game. 
 
-A matching game - first vanilla JS project 
-
+##Game Rules
 Match all cards to finish the game 
 
 3 levels
@@ -13,4 +15,4 @@ If more than 3 cards are open at a time all cards are closed.
 
 Option at end of game to restart.
 
-Focusing more on JS functionality than design. 
+#WIP - design 
