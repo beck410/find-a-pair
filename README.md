@@ -1,4 +1,4 @@
-#Find A Pair Gamw
+#Find A Pair Game
 
 ##Synopsis
 Vanilla JavaScript Matching game. 
